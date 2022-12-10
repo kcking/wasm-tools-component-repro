@@ -1,7 +1,5 @@
-interface test {
-    a: func() -> string
-}
-
 world test {
-    export test: test
+    default export interface {
+        a: func() -> string
+    }
 }
