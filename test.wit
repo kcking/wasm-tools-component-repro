@@ -1,0 +1,7 @@
+interface test {
+    a: func() -> string
+}
+
+world test {
+    export test: test
+}
